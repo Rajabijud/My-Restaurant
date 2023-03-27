@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'myfont';
+  src:  url('font/Vazir-Bold-FD.eot') format('woff2'),
+        url('font/Vazir-Bold-FD.woff') format('woff');
+}
+
+body{
+  
+	font-family:"myfont";
+	text-align:right;
+	text-decoration:none;
+	direction:rtl;
+  max-height: 86vh;	
+}
+*{box-sizing: border-box;}
+.horizontal-list{
+  display: flex;
+  flex-direction:row;
+  list-style-type: none;
+}
+.horizontal-list li{
+  margin: 10px 50px;
+}
+.horizontal-list a {
+  text-decoration: none;
+  color: white;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.welcom{
+  background-color: rgba(8, 7, 7, 0.527);
+  width: 26%;
+  height: 86vh;
+  max-height: 86vh;
+  overflow-y: hidden;
+}
+.welcom h1,p{
+  color: white;
+}
+.welcom input {
+  /* margin: 22px; */
+  padding: 10px 20px;
+  font-family: 'myfont';
+  cursor: pointer;
+  position: absolute;
+  top: 28%;
+  left: 28%;
+  width: 48%;
+}
