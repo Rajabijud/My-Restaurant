@@ -13,43 +13,60 @@ body{
   max-height: 86vh;	
 }
 *{box-sizing: border-box;}
-.horizontal-list{
-  display: flex;
-  flex-direction:row;
+
+/*list style */
+.horizon{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+ul{
   list-style-type: none;
-}
-.horizontal-list li{
-  margin: 10px 50px;
-}
-.horizontal-list a {
-  text-decoration: none;
-  color: white;
-}
-.center{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+
 }
-.welcom{
+li {
+  margin-left: 30px;
+  position: relative;
+
+}
+a{
+  text-decoration: none;
+  color:#fff;
+}
+.has-submenu .submenu{
+  display: none;
+    position: absolute;
+    top: 123%;
+    right: 0px;
+    width: 200px;
+  
+}
+.has-submenu:hover .submenu{
+  display: block;
+}
+/*style wellcome*/
+.wellcom{
   background-color: rgba(8, 7, 7, 0.527);
-  width: 26%;
-  height: 86vh;
-  max-height: 86vh;
-  overflow-y: hidden;
+  height: 570px;
 }
-.welcom h1,p{
-  color: white;
+.wellcom h1,p{
+  color: #fff;
+  position: relative;
+  top: 20%;
 }
-.welcom input {
-  /* margin: 22px; */
+
+.wellcom input {
   padding: 10px 20px;
   font-family: 'myfont';
   cursor: pointer;
   position: absolute;
-  top: 28%;
+  top: 64%;
   left: 28%;
   width: 48%;
 }
-.welcom input:hover{
+.wellcom input:hover{
   background-color: green;
 }
