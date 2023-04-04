@@ -70,3 +70,29 @@ a{
 .wellcom input:hover{
   background-color: green;
 }
+.bg-header{
+  background-color: rgba(8, 7, 7, 0.527);
+  width: 100%;
+  display: flex;
+}
+.bg-cover{
+  width:100%;
+  position: relative;
+}
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+
+}
+.contact-form input{
+  padding: 3%;
+  border-radius: 5%;
+  border: none;
+  background-color: #cccc;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
