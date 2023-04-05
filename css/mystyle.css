@@ -74,6 +74,8 @@ a{
   background-color: rgba(8, 7, 7, 0.527);
   width: 100%;
   display: flex;
+  position: fixed;
+  z-index: 10;
 }
 .bg-cover{
   width:100%;
@@ -95,4 +97,20 @@ a{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.center-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+ bottom: 488px;
+}
+.contact-form input[type="submit"]{
+  padding: 10px 20px;
+  font-family: 'myfont';
+  cursor: pointer;
+  
+}
+.contact-form input[type="submit"]:hover{
+  background-color:green ;
 }
