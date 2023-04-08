@@ -114,3 +114,29 @@ a{
 .contact-form input[type="submit"]:hover{
   background-color:green ;
 }
+.search-menu{
+  position: absolute;
+  left: 58px;
+  top: 2px;
+}
+.search-menu img {
+  width: 32px;
+  position: absolute;
+  left: 10px;
+  top: 4px;
+}
+.search-menu input{
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'myfont';
+  width: 195px;
+}
+.search-menu input[type="submit"]{
+  width: 68px;
+  position: absolute;
+  left: 200px;
+  cursor: pointer;
+}
+.search-menu input[type="submit"]:hover{
+  background-color: green;
+}
