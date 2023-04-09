@@ -72,3 +72,7 @@ nav button{
 .wellcom input:hover{
   background-color: green;
 }
+.my-span{
+  display: block;
+  margin-top: 5px;
+}
