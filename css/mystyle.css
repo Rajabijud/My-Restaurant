@@ -11,54 +11,56 @@ body{
 	text-decoration:none;
 	direction:rtl;
   max-height: 86vh;	
+  margin: 0;
 }
 *{box-sizing: border-box;}
 
-/*list style */
-.horizon{
-  position: absolute;
-  top: 5px;
-  right: 5px;
+/*style Home page*/
+/*start with navbar and hrizontail list */
+.navbar{
+  background-color: rgba(0, 0, 0, 0.747);
 }
-
-ul{
+.navbar ul {
   list-style-type: none;
   display: flex;
   justify-content: flex-end;
-
 }
-li {
+.navbar li {
   margin-left: 30px;
   position: relative;
-
+  top: 1px;
 }
-a{
+.navbar a {
   text-decoration: none;
-  color:#fff;
+  color: #fff;
 }
-.has-submenu .submenu{
-  display: none;
-    position: absolute;
-    top: 123%;
-    right: 0px;
-    width: 200px;
-  
+nav{
+  position: relative;
+    left: 23px;
 }
-.has-submenu:hover .submenu{
-  display: block;
+nav button{
+  margin-right: 5px;
 }
-/*style wellcome*/
+/*style Home page*/
 .wellcom{
   background-color: rgba(8, 7, 7, 0.527);
-  height: 570px;
+    height: 570px;
+    width: 30%;
+    float: right;
+    margin-right: 10px;
+    margin: auto 10px;
+    position: relative;
 }
 .wellcom h1,p{
   color: #fff;
   position: relative;
   top: 20%;
-}
+ /* margin-right: 10px;*/
+
+  }
 
 .wellcom input {
+  border-radius: 5px;
   padding: 10px 20px;
   font-family: 'myfont';
   cursor: pointer;
@@ -68,75 +70,5 @@ a{
   width: 48%;
 }
 .wellcom input:hover{
-  background-color: green;
-}
-.bg-header{
-  background-color: rgba(8, 7, 7, 0.527);
-  width: 100%;
-  display: flex;
-  position: fixed;
-  z-index: 10;
-}
-.bg-cover{
-  width:100%;
-  position: relative;
-}
-.contact-form{
-  display: flex;
-  flex-direction: column;
-  width: 25%;
-
-}
-.contact-form input{
-  padding: 3%;
-  border-radius: 5%;
-  border: none;
-  background-color: #cccc;
-}
-.center{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.center-form{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
- bottom: 488px;
-}
-.contact-form input[type="submit"]{
-  padding: 10px 20px;
-  font-family: 'myfont';
-  cursor: pointer;
-  
-}
-.contact-form input[type="submit"]:hover{
-  background-color:green ;
-}
-.search-menu{
-  position: absolute;
-  left: 58px;
-  top: 2px;
-}
-.search-menu img {
-  width: 32px;
-  position: absolute;
-  left: 10px;
-  top: 4px;
-}
-.search-menu input{
-  padding: 10px;
-  border-radius: 5px;
-  font-family: 'myfont';
-  width: 195px;
-}
-.search-menu input[type="submit"]{
-  width: 68px;
-  position: absolute;
-  left: 200px;
-  cursor: pointer;
-}
-.search-menu input[type="submit"]:hover{
   background-color: green;
 }
