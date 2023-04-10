@@ -75,4 +75,13 @@ nav button{
 .my-span{
   display: block;
   margin-top: 5px;
+  max-width: 200px;
+}
+.list-menu-pic img{
+  width: 200px;
+
+}
+.price img{
+  width: 22px;
+  
 }
