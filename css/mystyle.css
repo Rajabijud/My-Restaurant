@@ -73,15 +73,44 @@ nav button{
   background-color: green;
 }
 .my-span{
-  display: block;
-  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   max-width: 200px;
 }
+  /*Style Menu Page*/
+  /*Style Menu Page*/
+  /*Style Menu Page*/
+
 .list-menu-pic img{
   width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 200px;
 
+}
+.price span{
+  position: relative;
+  
 }
 .price img{
   width: 22px;
+  position: absolute;
+  left: 1px;
   
+}
+.price img:hover {
+  cursor: pointer;
+}
+div.price{
+  position: relative;
+  max-width: 200px;
+  
+}
+.col a{
+  text-decoration: none;
+  color: black;
 }
